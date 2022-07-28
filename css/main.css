@@ -100,7 +100,7 @@
 .btn-form {
     /* button padding : top/bottom = 16px - right/left = 32px  */
     padding: var(--root-space) var(--first-level-space);
-    border: none;
+    border: 2px solid var(--Very-light-gray);
     /* border-radius: 32px */
     border-radius: 2rem;
     background-color: var(--Very-light-gray);
