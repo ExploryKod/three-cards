@@ -1,11 +1,11 @@
 @import 'variables.css';
 @import 'reset.css';
 
+/* For Desktop and tablets */
 @media screen and (min-width:476px) {
 
 
     .main-page {
-        background-color: #fff;
         height: 100vh;
         position: relative;
         display: grid;
@@ -23,9 +23,6 @@
 
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
-
     }
 
     .para-margin {
@@ -33,13 +30,27 @@
     }
 
     .card {
+        position: relative;
         width: 100%;
         height: 100%;
         padding: var(--first-level-space);
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
     }
 
+    /* To avoid different position between buttons, we fix them at the bottom */
+    /* distance from bottom are the them than the padding of the container */
+    .btn-form {
+        position: absolute;
+        bottom: var(--first-level-space);
+    }
+
+}
+
+/* Big screen */
+@media screen and (min-width:1700px) {
+
+    .main-page {
+        grid-template-columns: 1fr 2fr 1fr;
+    }
 }

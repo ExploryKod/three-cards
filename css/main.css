@@ -4,7 +4,7 @@
 /* --main page-- */
 
 .main-page {
-    background-color: #fff;
+    background-color: var(--Transparent-white);
     width: 100%;
     height: auto;
 
