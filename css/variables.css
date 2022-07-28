@@ -1,0 +1,21 @@
+:root {
+
+    /* backgrounds */
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+
+    /* paragraphs */
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    /* background, headings, buttons */
+    --Very-light-gray: hsl(0, 0%, 95%);
+
+    --font-family-big-shoulder: 'Big Shoulders Display', cursive;
+    --font-family-lexend-deca: 'Lexend Deca', sans-serif;
+
+    /* The minimum size accepted for readibility: 18px - a multiple of 6 */
+    --paragraph-size: 1.125rem;
+    /* Headings need to be multiple of 6 so we choose : 24px (24/6 = 4) */
+    --headings-size: 1.5rem;
+
+}

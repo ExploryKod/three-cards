@@ -1,0 +1,89 @@
+@import 'variables.css';
+@import 'reset.css';
+
+/* --main page-- */
+
+.main-page {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-container {
+    width: 90vw;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.card-color-1 {
+    background-color: var(--Bright-orange);
+}
+
+.card-color-2 {
+    background-color: var(--Dark-cyan);
+}
+
+.card-color-3 {
+    background-color: var(--Very-dark-cyan);
+}
+
+/* -headings styles- */
+
+.title-font {
+    font-family: var(--font-family-big-shoulder);
+}
+
+.title-color,
+.btn-color {
+    color: var(--Very-light-gray);
+}
+
+.title-size {
+    /* 24px */
+    font-size: var(--headings-size);
+}
+
+/* -Paragraph styles- */
+.para-font {
+    font-family: var(--font-family-lexend-deca);
+}
+
+.para-color {
+    color: var(--Transparent-white);
+}
+
+.para-size {
+    /* 18px */
+    font-size: var(--paragraph-size);
+}
+
+
+
+
+
+/* --Footer-- */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
