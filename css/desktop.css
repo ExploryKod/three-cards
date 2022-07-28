@@ -6,7 +6,7 @@
 
 
     .main-page {
-        height: 100vh;
+        height: 95vh;
         position: relative;
         display: grid;
         justify-content: center;
@@ -46,6 +46,10 @@
 
     .card button {
         flex-grow: 0;
+    }
+
+    .footer {
+        height: 5vh;
     }
 }
 
