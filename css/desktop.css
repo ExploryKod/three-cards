@@ -38,19 +38,21 @@
         flex-direction: column;
     }
 
-    /* To avoid different position between buttons, we fix them at the bottom */
-    /* distance from bottom are the them than the padding of the container */
-    .btn-form {
-        position: absolute;
-        bottom: var(--first-level-space);
+    .card>* {
+        flex-grow: 1;
+        flex-shrink: 0;
+
     }
 
+    .card button {
+        flex-grow: 0;
+    }
 }
 
 /* Big screen */
 @media screen and (min-width:1700px) {
 
     .main-page {
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
