@@ -13,9 +13,23 @@
     --font-family-big-shoulder: 'Big Shoulders Display', cursive;
     --font-family-lexend-deca: 'Lexend Deca', sans-serif;
 
+
     /* The minimum size accepted for readibility: 18px - a multiple of 6 */
     --paragraph-size: 1.125rem;
-    /* Headings need to be multiple of 6 so we choose : 24px (24/6 = 4) */
-    --headings-size: 1.5rem;
+    /* Headings need to be multiple of 6 so we choose : 36px (36/6 = 6) */
+    --headings-size: 2.25rem;
 
+    /* White spaces - multiple of 8 */
+
+    /* 16px */
+    --root-space: 1rem;
+
+    /* The space here is 8px wide */
+    --first-level-space: 2rem;
+
+    /* 24px wide */
+    --second-level-space: 4rem;
+
+    /* 32px wide */
+    --third-level-space: 128rem;
 }

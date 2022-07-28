@@ -21,10 +21,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+}
+
+.card-container-form {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .card {
-    padding: 1rem;
+    padding: var(--first-level-space);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -47,10 +52,10 @@
 
 .title-font {
     font-family: var(--font-family-big-shoulder);
+    text-transform: uppercase;
 }
 
-.title-color,
-.btn-color {
+.title-color {
     color: var(--Very-light-gray);
 }
 
@@ -59,9 +64,15 @@
     font-size: var(--headings-size);
 }
 
+.title-margin {
+    margin: var(--first-level-space) auto;
+    margin-left: 0;
+}
+
 /* -Paragraph styles- */
 .para-font {
     font-family: var(--font-family-lexend-deca);
+    line-height: 1.5;
 }
 
 .para-color {
@@ -73,9 +84,39 @@
     font-size: var(--paragraph-size);
 }
 
+.para-margin {
+    margin-bottom: var(--root-space);
+}
 
+/* Buttons styles */
 
+.btn-size,
+.btn-font {
+    font-size: var(--paragraph-size);
+    font-family: var(--font-family-lexend-deca);
 
+}
+
+.btn-form {
+    padding: 0.5em 1em;
+    border: none;
+    /* border-radius: 20px */
+    border-radius: 1.25rem;
+    background-color: var(--Very-light-gray);
+
+}
+
+.btn-text-color-1 {
+    color: var(--Bright-orange);
+}
+
+.btn-text-color-2 {
+    color: var(--Dark-cyan);
+}
+
+.btn-text-color-3 {
+    color: var(--Very-dark-cyan);
+}
 
 /* --Footer-- */
 
