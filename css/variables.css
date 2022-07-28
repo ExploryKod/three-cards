@@ -21,15 +21,24 @@
 
     /* White spaces - multiple of 8 */
 
-    /* 16px */
+    /* less than 16px - levels */
+
+    /* 4px  wide */
+    --second-sub-level: 0.25rem;
+
+    /* 8px wide */
+    --first-sub-level: 0.5rem;
+
+    /* 16px wide */
     --root-space: 1rem;
 
-    /* The space here is 8px wide */
+    /* The space here is 32px wide */
     --first-level-space: 2rem;
 
-    /* 24px wide */
+    /* 40px wide */
+    --second-level-space: 2.5rem;
+
+    /* 64px wide */
     --second-level-space: 4rem;
 
-    /* 32px wide */
-    --third-level-space: 128rem;
 }

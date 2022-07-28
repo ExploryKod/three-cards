@@ -98,12 +98,13 @@
 }
 
 .btn-form {
-    padding: 0.5em 1em;
+    /* button padding : top/bottom = 16px - right/left = 32px  */
+    padding: var(--root-space) var(--first-level-space);
     border: none;
-    /* border-radius: 20px */
-    border-radius: 1.25rem;
+    /* border-radius: 32px */
+    border-radius: 2rem;
     background-color: var(--Very-light-gray);
-
+    cursor: pointer;
 }
 
 .btn-text-color-1 {
@@ -116,6 +117,12 @@
 
 .btn-text-color-3 {
     color: var(--Very-dark-cyan);
+}
+
+.btn-form:active {
+    border: 2px solid var(--Very-light-gray);
+    background-color: transparent;
+    color: var(--Very-light-gray);
 }
 
 /* --Footer-- */
